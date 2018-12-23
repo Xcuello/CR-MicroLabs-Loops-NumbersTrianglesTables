@@ -43,17 +43,6 @@ public class NumberUtilitiesTest {
         Assert.assertEquals(expected, actual);
     }
 
-
-
-
-
-
-
-
-
-
-
-
     @Test
     public void testGetRange1B() {
         // : Given
@@ -97,18 +86,6 @@ public class NumberUtilitiesTest {
         // : Then
         Assert.assertEquals(expected, actual);
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
     @Test
     public void testGetRange1C() {
