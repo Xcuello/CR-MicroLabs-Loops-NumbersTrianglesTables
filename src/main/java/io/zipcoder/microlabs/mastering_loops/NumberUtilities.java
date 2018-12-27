@@ -100,6 +100,14 @@ public class NumberUtilities {
 
     public static String getExponentiations(int start, int stop, int step, int exponent) {
 
-        return null;
+        String answer = "";
+
+        for (int i = start; i <= stop ; step++) {
+
+            String allNumbers = String.valueOf(Math.pow(i, exponent));
+
+            answer = answer.concat(allNumbers);
+        }
+        return answer;
     }
 }

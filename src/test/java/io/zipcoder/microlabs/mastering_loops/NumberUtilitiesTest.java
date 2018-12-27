@@ -134,19 +134,6 @@ public class NumberUtilitiesTest {
         Assert.assertEquals(expected, actual);
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     @Test
     public void testGetEvenNumbers() {
         // : Given
