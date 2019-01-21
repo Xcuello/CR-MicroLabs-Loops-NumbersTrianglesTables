@@ -11,7 +11,7 @@ public class NumberUtilitiesTest {
         int stop = 11;
 
         // : When
-        String actual = NumberUtilities.getRange(stop);
+         String actual = NumberUtilities.getRange(stop);
 
         // : Then
         Assert.assertEquals(expected, actual);

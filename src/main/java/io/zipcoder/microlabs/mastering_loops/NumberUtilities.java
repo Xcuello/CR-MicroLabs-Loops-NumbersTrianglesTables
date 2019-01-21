@@ -102,7 +102,7 @@ public class NumberUtilities {
 
         String answer = "";
 
-        for (int i = start; i <= stop ; step++) {
+        for (int i = start; i <= stop ; i += step++) {
 
             String allNumbers = String.valueOf(Math.pow(i, exponent));
 
